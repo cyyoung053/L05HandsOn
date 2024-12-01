@@ -1,0 +1,12 @@
+<ion-content class="ion-padding">
+  <h1 class="toc-title">Table of Contents</h1>
+  <ion-list class="toc-list">
+    <ion-item *ngFor="let chapter of chapters" [routerLink]="['/content', chapter.page]">
+      {{ chapter.title }}
+    </ion-item>
+  </ion-list>
+  <div class="navigation-buttons">
+    <ion-button expand="block" routerLink="/content/1">Start Reading</ion-button>
+    <ion-button expand="block" routerLink="/cover">Back to Cover</ion-button>
+  </div>
+</ion-content>

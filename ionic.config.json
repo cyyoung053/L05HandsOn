@@ -1,5 +1,7 @@
 {
   "name": "L05HandsOn",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

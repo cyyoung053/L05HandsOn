@@ -1,0 +1,63 @@
+.chapter-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.chapter-text {
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.chapter-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.chapter-image {
+  float: right;
+  margin: 10px 0 10px 15px;
+  width: 25%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 100;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 1rem;
+  color: #666;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation-buttons ion-button {
+  flex: 1;
+  margin: 0 5px;
+}

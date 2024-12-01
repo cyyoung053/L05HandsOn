@@ -1,0 +1,25 @@
+.cover-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.book-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cover-image {
+  max-width: 60%;
+  height: auto;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  font-size: 1.2rem;
+}
